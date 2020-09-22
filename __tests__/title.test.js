@@ -9,4 +9,9 @@ test('renders page about', () => {
     /abc/
   )
   expect(linkElement).toBeInTheDocument()
-})
+});
+
+test('uni test common function', () => {
+    const common = require('../utility/common');
+    expect(common.sum1(2,3)).toBe(5);
+  })
