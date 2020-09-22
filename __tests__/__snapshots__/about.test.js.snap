@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders about unchanged 1`] = `
+<div
+  className="container"
+>
+  <h1>
+    this is about
+  </h1>
+</div>
+`;
